@@ -14,7 +14,7 @@ import sys
 
 
 
-QtWin.setCurrentProcessExplicitAppUserModelID("tobiproject")
+QtWin.setCurrentProcessExplicitAppUserModelID("main")
 
 
 
@@ -143,9 +143,9 @@ class Ui_MainWindow(object):
         self.ClearButton.setText(_translate("MainWindow", "Clear"))
         self.Label1.setText(_translate("MainWindow", "Roman Numeral"))
         self.Label1_2.setText(_translate("MainWindow", "Arabic Numeral Representation"))
-        self.Label1_3.setText(_translate("MainWindow", "_Oluwatobiloba2020_"))
+        self.Label1_3.setText(_translate("MainWindow", "_TechCeo2020_"))
         self.InputBox.setPlaceholderText(_translate("MainWindow", "Enter Roman Numerals Here"))
-        self.Headinglabel.setText(_translate("MainWindow", "ROMAN TO ARABIC NUMERAL TRANSLATOR"))
+        self.Headinglabel.setText(_translate("MainWindow", "ROMAN 2 ARABIC NUMERAL TRANSLATOR"))
 
 
 
@@ -186,8 +186,8 @@ class Ui_MainWindow(object):
 
 
     def Clearform(self):
-    	self.ResultBox.setText(" ")
-    	self.InputBox.clear()
+        self.ResultBox.setText(" ")
+        self.InputBox.clear()
     	
 
 
